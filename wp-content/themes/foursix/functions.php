@@ -231,6 +231,7 @@ function foursix_public_scripts() {
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
     wp_enqueue_style( 'foursix', get_template_directory_uri() . '/assets/css/theme.css' );
     wp_enqueue_style( 'foursix-responsive', get_template_directory_uri() . '/assets/css/responsive.css' );
+    wp_enqueue_style( 'foursix-blog-cards', get_template_directory_uri() . '/assets/css/blog-cards.css' );
     wp_enqueue_style( 'foursix-style', get_stylesheet_uri() );
 
     wp_enqueue_script( 'foursix-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
@@ -321,3 +322,13 @@ function foursix_theme_options() {
  */
 require get_template_directory() . '/inc/welcome-popup.php';
 require get_template_directory() . '/inc/welcome-popup-admin.php';
+
+/**
+ * Blog Cards Shortcode
+ */
+require get_template_directory() . '/inc/blog-cards-shortcode.php';
+
+/**
+ * Admin Shortcodes Documentation & Tools Page
+ */
+require get_template_directory() . '/inc/admin-shortcodes-page.php';
