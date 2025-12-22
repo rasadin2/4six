@@ -332,3 +332,23 @@ require get_template_directory() . '/inc/blog-cards-shortcode.php';
  * Admin Shortcodes Documentation & Tools Page
  */
 require get_template_directory() . '/inc/admin-shortcodes-page.php';
+
+/**
+ * Promotions Custom Post Type
+ */
+require get_template_directory() . '/inc/promotions-post-type.php';
+
+/**
+ * Promotions Shortcode
+ */
+require get_template_directory() . '/inc/promotions-shortcode.php';
+
+/**
+ * FAQ Custom Post Type
+ */
+require get_template_directory() . '/inc/faq-post-type.php';
+
+/**
+ * FAQ Shortcode
+ */
+require get_template_directory() . '/inc/faq-shortcode.php';

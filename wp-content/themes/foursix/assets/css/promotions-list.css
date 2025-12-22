@@ -1,0 +1,514 @@
+/**
+ * Promotions List Compact Card Styles
+ * Horizontal layout with left icon badge
+ */
+
+.promotions-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card Base - Vertical Layout */
+.promo-list-card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.promo-list-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Header (Colored Section) */
+.promo-list-header {
+    position: relative;
+    padding: 25px 30px 30px 30px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Badge Wrapper (Icon + Badge in top-left) */
+.promo-list-badge-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+
+.promo-list-icon {
+    width: 36px;
+    height: 36px;
+    color: #ffffff;
+}
+
+.promo-list-badge {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+/* Content (Dark Section) */
+.promo-list-content {
+    padding: 30px;
+    background: rgba(15, 23, 42, 0.5);
+}
+
+.promo-list-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    padding-left: 90px;
+    line-height: 1.3;
+}
+
+.promo-list-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    padding-left: 90px;
+    line-height: 1.4;
+}
+
+.promo-list-description {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 90px;
+}
+
+.promo-list-description p {
+    margin: 0;
+}
+
+.promo-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.promo-list-column {
+    min-width: 0;
+}
+
+.promo-list-column-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #94a3b8;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.promo-list-column-title svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Lists */
+.promo-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.promo-list-items li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #cbd5e1;
+    line-height: 1.5;
+}
+
+.promo-list-items li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.promo-list-items li:last-child {
+    margin-bottom: 0;
+}
+
+/* Steps */
+.promo-list-steps {
+    list-style: none;
+    counter-reset: step-counter;
+    padding: 0;
+    margin: 0;
+}
+
+.promo-list-steps li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #cbd5e1;
+    line-height: 1.5;
+    counter-increment: step-counter;
+}
+
+.promo-list-steps li:before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.promo-list-steps li:last-child {
+    margin-bottom: 0;
+}
+
+/* Footer */
+.promo-list-footer {
+    padding: 25px 30px;
+    background: rgba(15, 23, 42, 0.3);
+}
+
+.promo-list-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.promo-list-button:hover {
+    transform: translateY(-2px);
+    color: #ffffff;
+}
+
+.promo-list-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Color Schemes */
+
+/* Teal */
+.card-color-teal .promo-list-header {
+    background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+}
+.card-color-teal .promo-list-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.card-color-teal .promo-list-subtitle {
+    color: #e0f2f1;
+}
+.card-color-teal .promo-list-items li:before {
+    background: #5eead4;
+}
+.card-color-teal .promo-list-steps li:before {
+    background: #14b8a6;
+}
+.card-color-teal .button-green {
+    background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+    box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+}
+
+/* Navy */
+.card-color-navy .promo-list-header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0f2942 100%);
+}
+.card-color-navy .promo-list-badge {
+    background: #fbbf24;
+    color: #1e293b;
+}
+.card-color-navy .promo-list-subtitle {
+    color: #fbbf24;
+}
+.card-color-navy .promo-list-items li:before {
+    background: #fbbf24;
+}
+.card-color-navy .promo-list-steps li:before {
+    background: #fbbf24;
+}
+.card-color-navy .button-yellow {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1a1f2e;
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+}
+
+/* Purple */
+.card-color-purple .promo-list-header {
+    background: linear-gradient(135deg, #6b21a8 0%, #581c87 100%);
+}
+.card-color-purple .promo-list-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.card-color-purple .promo-list-subtitle {
+    color: #e9d5ff;
+}
+.card-color-purple .promo-list-items li:before {
+    background: #c084fc;
+}
+.card-color-purple .promo-list-steps li:before {
+    background: #a855f7;
+}
+.card-color-purple .button-purple {
+    background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+}
+
+/* Burgundy */
+.card-color-burgundy .promo-list-header {
+    background: linear-gradient(135deg, #7c2d5e 0%, #5e1f46 100%);
+}
+.card-color-burgundy .promo-list-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.card-color-burgundy .promo-list-subtitle {
+    color: #fecdd3;
+}
+.card-color-burgundy .promo-list-items li:before {
+    background: #fb7185;
+}
+.card-color-burgundy .promo-list-steps li:before {
+    background: #f43f5e;
+}
+.card-color-burgundy .button-pink {
+    background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.3);
+}
+
+/* Blue */
+.card-color-blue .promo-list-header {
+    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+}
+.card-color-blue .promo-list-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.card-color-blue .promo-list-subtitle {
+    color: #bae6fd;
+}
+.card-color-blue .promo-list-items li:before {
+    background: #38bdf8;
+}
+.card-color-blue .promo-list-steps li:before {
+    background: #0ea5e9;
+}
+.card-color-blue .button-blue {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+}
+
+/* Brown */
+.card-color-brown .promo-list-header {
+    background: linear-gradient(135deg, #78350f 0%, #57260d 100%);
+}
+.card-color-brown .promo-list-badge {
+    background: #fbbf24;
+    color: #1e293b;
+}
+.card-color-brown .promo-list-subtitle {
+    color: #fbbf24;
+}
+.card-color-brown .promo-list-items li:before {
+    background: #fbbf24;
+}
+.card-color-brown .promo-list-steps li:before {
+    background: #f59e0b;
+}
+.card-color-brown .button-orange {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+}
+
+/* Yellow-Brown */
+.card-color-yellow-brown .promo-list-header {
+    background: linear-gradient(135deg, #92400e 0%, #713f12 100%);
+}
+.card-color-yellow-brown .promo-list-badge {
+    background: #fbbf24;
+    color: #1e293b;
+}
+.card-color-yellow-brown .promo-list-subtitle {
+    color: #fbbf24;
+}
+.card-color-yellow-brown .promo-list-items li:before {
+    background: #fbbf24;
+}
+.card-color-yellow-brown .promo-list-steps li:before {
+    background: #fbbf24;
+}
+.card-color-yellow-brown .button-yellow {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1a1f2e;
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+}
+
+/* Dark Teal */
+.card-color-dark-teal .promo-list-header {
+    background: linear-gradient(135deg, #115e59 0%, #134e4a 100%);
+}
+.card-color-dark-teal .promo-list-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.card-color-dark-teal .promo-list-subtitle {
+    color: #a7f3d0;
+}
+.card-color-dark-teal .promo-list-items li:before {
+    background: #34d399;
+}
+.card-color-dark-teal .promo-list-steps li:before {
+    background: #10b981;
+}
+.card-color-dark-teal .button-green {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .promotions-list-container {
+        padding: 15px;
+    }
+
+    .promo-list-header {
+        padding: 20px 20px 25px 20px;
+        min-height: 160px;
+    }
+
+    .promo-list-badge-wrapper {
+        top: 20px;
+        left: 20px;
+    }
+
+    .promo-list-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .promo-list-title {
+        font-size: 20px;
+        padding-left: 80px;
+    }
+
+    .promo-list-subtitle {
+        font-size: 15px;
+        padding-left: 80px;
+    }
+
+    .promo-list-description {
+        font-size: 13px;
+        padding-left: 80px;
+    }
+
+    .promo-list-content {
+        padding: 25px 20px;
+    }
+
+    .promo-list-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .promo-list-footer {
+        padding: 20px;
+    }
+
+    .promo-list-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .promo-list-header {
+        padding: 18px 18px 22px 18px;
+        min-height: 150px;
+    }
+
+    .promo-list-badge-wrapper {
+        top: 18px;
+        left: 18px;
+        gap: 5px;
+    }
+
+    .promo-list-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .promo-list-badge {
+        font-size: 8px;
+        padding: 3px 6px;
+    }
+
+    .promo-list-title {
+        font-size: 18px;
+        padding-left: 70px;
+        margin-bottom: 8px;
+    }
+
+    .promo-list-subtitle {
+        font-size: 14px;
+        padding-left: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promo-list-description {
+        font-size: 12px;
+        padding-left: 70px;
+        line-height: 1.5;
+    }
+
+    .promo-list-content {
+        padding: 20px 18px;
+    }
+
+    .promo-list-grid {
+        gap: 20px;
+    }
+
+    .promo-list-footer {
+        padding: 18px;
+    }
+}
