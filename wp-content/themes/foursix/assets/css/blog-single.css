@@ -397,3 +397,19 @@ body.single-post .col-md-9 {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+/* Ensure footer is visible on single posts */
+body.single-post .foursix-footer {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Reset any background that might hide footer */
+body.single-post {
+    background: #0a0f1a;
+}
+
+body.single-post .foursix-single-post-wrapper {
+    background: #0a0f1a;
+}
