@@ -1196,6 +1196,111 @@ function foursix_render_shortcodes_page() {
                     </div>
                 </div>
 
+                <!-- Blog Content Boxes -->
+                <div class="shortcode-card">
+                    <div class="shortcode-header">
+                        <h3>Blog Content Boxes</h3>
+                        <span class="shortcode-tag">[markets_box] [cta_box]</span>
+                    </div>
+
+                    <div class="shortcode-description">
+                        <p>Special styled content boxes for blog posts. Add emphasis to key information, markets, or calls-to-action within your blog content.</p>
+                    </div>
+
+                    <div class="shortcode-parameters">
+                        <h4>Markets Box Parameters:</h4>
+                        <table class="widefat">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Default</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>title</code></td>
+                                    <td>string</td>
+                                    <td>Key Markets</td>
+                                    <td>Box title/heading</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="shortcode-examples">
+                        <h4>Markets Box Usage:</h4>
+                        <div class="example-item">
+                            <strong>Betting markets list:</strong>
+                            <code class="code-block">[markets_box title="Top IPL Betting Markets"]
+Match Winner - Predict which team will win the match
+Top Batsman - Bet on the highest run-scorer in the match
+Total Runs - Over/under on total runs scored
+Tournament Winner - Long-term bet on the IPL champion
+[/markets_box]</code>
+                            <p class="example-desc">Creates a teal-bordered box with market options list</p>
+                        </div>
+                    </div>
+
+                    <div class="shortcode-parameters">
+                        <h4>CTA Box Parameters:</h4>
+                        <table class="widefat">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Default</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>title</code></td>
+                                    <td>string</td>
+                                    <td>Ready to Get Started?</td>
+                                    <td>CTA box heading</td>
+                                </tr>
+                                <tr>
+                                    <td><code>button_text</code></td>
+                                    <td>string</td>
+                                    <td>Sign Up Now</td>
+                                    <td>Button label text</td>
+                                </tr>
+                                <tr>
+                                    <td><code>button_url</code></td>
+                                    <td>URL</td>
+                                    <td>#</td>
+                                    <td>Button destination link</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="shortcode-examples">
+                        <h4>CTA Box Usage:</h4>
+                        <div class="example-item">
+                            <strong>Call-to-action box:</strong>
+                            <code class="code-block">[cta_box title="Ready to Place Your Bets?" button_text="Sign Up Now" button_url="/register"]
+Join 4six today and start betting on your favorite sports and casino games with the best odds in Bangladesh!
+[/cta_box]</code>
+                            <p class="example-desc">Creates an orange/yellow bordered CTA box with signup button</p>
+                        </div>
+                    </div>
+
+                    <div class="shortcode-features">
+                        <h4>✨ Features:</h4>
+                        <ul>
+                            <li>✅ Teal gradient box for markets/key info</li>
+                            <li>✅ Orange/yellow gradient box for CTAs</li>
+                            <li>✅ Custom bullet points and formatting</li>
+                            <li>✅ Responsive design matching blog theme</li>
+                            <li>✅ Easy to use within blog post content</li>
+                            <li>✅ Support for label - description format</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Promotion Generator Section -->

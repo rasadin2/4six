@@ -9,61 +9,34 @@
 
 get_header();
 ?>
-<div class="container">
-	<div class="row">
-		<div class="col-md-9">
-			<div id="primary" class="foursix-content-area">
-				<main id="main" class="foursix-site-main">
+<div class="foursix-single-post-wrapper">
+	<div id="primary" class="foursix-content-area">
+		<main id="main" class="foursix-site-main">
 
-					<?php
-					/**
-					 * foursix_before_main_content hook
-					 */
-					do_action( 'foursix_before_main_content' );
+			<?php
+			/**
+			 * foursix_before_main_content hook
+			 */
+			do_action( 'foursix_before_main_content' );
 
-					while ( have_posts() ) :
-						the_post();
+			while ( have_posts() ) :
+				the_post();
 
-						get_template_part( 'template-parts/post/content', get_post_format($post->ID) );
+				// Use custom single post template
+				get_template_part( 'template-parts/post/content', 'single' );
 
-						the_post_navigation();
+			endwhile; // End of the loop.
 
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
-
-					endwhile; // End of the loop.
-
-					/**
-					 * foursix_after_main_content hook
-					 */
-					do_action( 'foursix_after_main_content' );
-					?>
-
-				</main><!-- #main -->
-			</div><!-- #primary -->
-		</div>
-		<div class="col-md-3">
-				
-			<?php 
-				/**
-				 * foursix_before_sidebar hook
-				 */
-				do_action( 'foursix_before_sidebar' );
-
-				get_sidebar();
-				
-				/**
-				 * foursix_after_sidebar hook
-				 */
-				do_action( 'foursix_after_sidebar' );
+			/**
+			 * foursix_after_main_content hook
+			 */
+			do_action( 'foursix_after_main_content' );
 			?>
-			
-		</div>
-	</div>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
 </div>
-	
+
 
 <?php
 get_footer();

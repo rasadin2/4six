@@ -352,3 +352,39 @@ require get_template_directory() . '/inc/faq-post-type.php';
  * FAQ Shortcode
  */
 require get_template_directory() . '/inc/faq-shortcode.php';
+
+/**
+ * Blog Content Boxes Shortcodes
+ */
+require get_template_directory() . '/inc/blog-content-boxes.php';
+
+/**
+ * Blog CTA Meta Box
+ */
+require get_template_directory() . '/inc/blog-cta-meta-box.php';
+
+/**
+ * Enqueue Blog Single Post Styles
+ */
+function foursix_enqueue_blog_single_styles() {
+    if ( is_single() && get_post_type() === 'post' ) {
+        wp_enqueue_style(
+            'foursix-blog-single',
+            get_template_directory_uri() . '/assets/css/blog-single.css',
+            array(),
+            '1.0.0'
+        );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'foursix_enqueue_blog_single_styles' );
+
+/**
+ * Calculate Reading Time for Blog Posts
+ */
+function foursix_reading_time() {
+    $content = get_post_field( 'post_content', get_the_ID() );
+    $word_count = str_word_count( strip_tags( $content ) );
+    $reading_time = ceil( $word_count / 200 ); // Average reading speed: 200 words per minute
+
+    return $reading_time;
+}
