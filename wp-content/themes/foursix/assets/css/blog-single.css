@@ -7,9 +7,8 @@
 .blog-single-container {
     max-width: 720px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 20px 60px 20px;
     background: #0a0f1a;
-    min-height: 100vh;
 }
 
 /* Back to Blog Button */
@@ -403,6 +402,57 @@ body.single-post .foursix-footer {
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    margin-top: 0 !important;
+}
+
+/* Ensure footer containers and widgets are visible */
+body.single-post .foursix-footer .container,
+body.single-post .foursix-footer .first-bottom,
+body.single-post .foursix-footer .second-bottom,
+body.single-post .foursix-footer .footer-copy-right {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure footer rows are visible */
+body.single-post .foursix-footer .row {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure footer columns are visible */
+body.single-post .foursix-footer [class*="col-"],
+body.single-post .foursix-footer .first-colume,
+body.single-post .foursix-footer .second-colume,
+body.single-post .foursix-footer .foo-colume-1,
+body.single-post .foursix-footer .foo-colume-2,
+body.single-post .foursix-footer .foo-colume-3,
+body.single-post .foursix-footer .foo-colume-4 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure footer widgets display correctly */
+body.single-post .foursix-footer .widget,
+body.single-post .foursix-footer .foursix-footer-widget,
+body.single-post .foursix-footer .foursix-copyright-widget {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure footer content (headings, lists, paragraphs) is visible */
+body.single-post .foursix-footer h4,
+body.single-post .foursix-footer ul,
+body.single-post .foursix-footer li,
+body.single-post .foursix-footer p,
+body.single-post .foursix-footer a {
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* Reset any background that might hide footer */
@@ -412,4 +462,16 @@ body.single-post {
 
 body.single-post .foursix-single-post-wrapper {
     background: #0a0f1a;
+    position: relative;
+}
+
+/* Ensure content area doesn't block footer */
+body.single-post #content {
+    position: relative;
+    overflow: visible;
+}
+
+body.single-post #primary {
+    position: relative;
+    overflow: visible;
 }

@@ -4,7 +4,8 @@
       "Bash(find:*)",
       "WebFetch(domain:www.figma.com)",
       "Bash(git checkout:*)",
-      "mcp__sequential-thinking__sequentialthinking"
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(php -r:*)"
     ]
   }
 }
