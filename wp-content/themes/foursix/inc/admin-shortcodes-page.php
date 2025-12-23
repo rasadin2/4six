@@ -1282,6 +1282,44 @@ function foursix_render_shortcodes_page() {
                 </div>
             </div>
 
+            <!-- FAQ Generator Section -->
+            <div class="foursix-admin-section">
+                <h2>❓ FAQ Generator</h2>
+
+                <div class="generator-card">
+                    <div class="generator-description">
+                        <p>Generate 20 sample FAQs across 5 categories with complete answers. Perfect for testing the FAQ accordion and populating your help section.</p>
+                    </div>
+
+                    <form method="post" action="">
+                        <?php wp_nonce_field( 'foursix_generate_faqs', 'foursix_generate_faqs_nonce' ); ?>
+
+                        <div class="generator-controls">
+                            <div class="control-group">
+                                <button type="submit" class="button button-primary button-hero">
+                                    <span class="dashicons dashicons-editor-help"></span>
+                                    Generate 20 FAQs
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="generator-info">
+                        <h4>🎯 What will be generated:</h4>
+                        <ul>
+                            <li><strong>5 FAQ Categories:</strong> Registration & Identity, Account Security, General FAQs, Technical Help, Funding</li>
+                            <li><strong>20 FAQs total:</strong> 4-5 questions per category</li>
+                            <li><strong>Category Icons:</strong> Question mark, Lock, Lightbulb, Tools, Money icons</li>
+                            <li><strong>Rich Answers:</strong> Detailed multi-paragraph answers with helpful information</li>
+                            <li><strong>Organized Structure:</strong> Questions grouped by category for easy navigation</li>
+                            <li><strong>Accordion Display:</strong> Automatic expand/collapse functionality</li>
+                        </ul>
+                        <p class="description" style="margin-top: 15px;"><strong>Topics Include:</strong> Account creation, security verification, betting terminology, technical troubleshooting, deposit methods, and more.</p>
+                        <p class="description"><strong>Note:</strong> This will create 20 new FAQ posts and 5 categories immediately. They will be published and visible on your site.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
