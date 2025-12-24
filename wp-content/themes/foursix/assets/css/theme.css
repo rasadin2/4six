@@ -85,7 +85,7 @@ header .container {
 	color: #000;
 }
 .foursix-main-menu li > .sub-menu li a:hover{
-	
+	 color: #333;
 }
 .foursix-main-menu li > .sub-menu li:last-child a {
 	border-bottom:0px solid rgba(255,255,255, 0.7);
@@ -3310,6 +3310,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             border-radius: 12px;
             padding: 50px 40px;    
 			margin: 0px 0;
+			border: 1px solid #364153;
         }
 
          .about-section .welcome-content {
@@ -3506,6 +3507,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             background: #0f1e35;
             padding: 20px;
             border-radius: 8px;
+			border: 1px solid #364153;
         }
 
          .about-section .company-info p {
@@ -3587,7 +3589,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             border-radius: 8px;
             font-size: 1rem;
             font-weight: 600;
-            text-decoration: none;
+            text-decoration: none !important;
             display: inline-block;
             transition: transform 0.2s;
         }
@@ -4540,4 +4542,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
     font-size: 15px;
     margin-top: 16px;
     margin-left: 15px;
+}
+.top-nav a{
+	text-decoration:none !important;
+	color:#10b981;
 }
