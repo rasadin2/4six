@@ -4547,3 +4547,11 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 	text-decoration:none !important;
 	color:#10b981;
 }
+.view-more-btn,
+.link-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.view-more-btn:hover,
+.link-btn:hover {
+    transform: translateY(-3px);
+}
