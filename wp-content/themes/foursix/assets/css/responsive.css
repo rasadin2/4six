@@ -35,7 +35,7 @@
     width: 48.5% !important;
 }
 .foursix-main-menu li a {
-    padding: 20px 13px;
+    padding: 16px 13px;
     font-size: 16px;
 }
 .platfrom-icon-box .elementor-image-box-wrapper {
@@ -48,6 +48,13 @@
     gap: 20px;
     margin-bottom: 30px;
 }
+ .about-section .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+             .about-section .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
 }
 /*Tab Portrait*/
 @media only screen and (max-width:991px) {
@@ -95,6 +102,17 @@
     max-width: 347px;
     width: 100%;
 }
+.cricket-betting .bonnus-box-image {
+    display: flex;
+    gap: 0 20px;
+    flex-wrap: wrap;
+}
+.cricket-betting .left-bonus-content {
+    width: 100%;
+}
+.cricket-betting .bonus-card-img {
+    width: 100%;
+}
 }
 /*Tab Portrait*/
 @media only screen and (max-width:768px) {
@@ -105,9 +123,456 @@
 .list-image-box {
     width: 48% !important;
 }
+.betting-content-box .header h1 {
+                font-size: 24px;
+            }
+
+            .betting-content-box .section {
+                padding: 20px;
+            }
+
+            .betting-content-box .section-title {
+                font-size: 20px;
+            }
+
+            .betting-content-box .grid-2, .betting-content-box .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            .betting-content-box .button-group {
+                flex-direction: column;
+            }
+
+            .betting-content-box .btn-primary, .betting-content-box .btn-secondary {
+                width: 100%;
+                text-align: center;
+            }
+			.cricket-betting .hero h1 {
+                font-size: 32px;
+            }
+
+            .cricket-betting .hero p {
+                font-size: 16px;
+            }
+
+            .cricket-betting .section-title {
+                font-size: 26px;
+            }
+
+           .cricket-betting .grid-3, .cricket-betting .grid-4, .cricket-betting .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .cricket-betting .hero-buttons {
+                flex-direction: column;
+            }
+
+            .cricket-betting .btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            .cricket-betting .nav-content {
+                flex-wrap: wrap;
+                font-size: 12px;
+            }
+
+            .cricket-betting .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cricket-betting .bonus-text {
+                font-size: 32px;
+            }
+			 .about-section  h1 {
+                font-size: 2rem;
+            }
+
+             .about-section .welcome-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+             .about-section .welcome-text h2 {
+                font-size: 1.5rem;
+            }
+
+             .about-section .features-grid,
+             .about-section .mission-vision,
+             .about-section .offers-grid,
+             .about-section .commitment-grid {
+                grid-template-columns: 1fr;
+            }
+
+             .about-section .stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+             .about-section .cta-buttons {
+                flex-direction: column;
+            }
+
+             .about-section .btn {
+                width: 100%;
+            }
+			.contact-section .hero-section h1 {
+                font-size: 2rem;
+            }
+
+             .contact-section .hero-section p {
+                font-size: 1rem;
+            }
+
+             .contact-section .contact-methods,
+             .contact-section .info-section,
+             .contact-section .help-cards {
+                grid-template-columns: 1fr;
+            }
+
+             .contact-section .info-section {
+                grid-template-columns: 1fr;
+            }
+
+             .contact-section .social-btn {
+                min-width: 100%;
+            }
+
+             .contact-section .contact-card,
+             .contact-section .info-card,
+             .contact-section .help-card {
+                padding: 30px 20px;
+            }
+			     .privacy-policy-section .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .privacy-policy-section .section {
+            background: #2d3748;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-left: 4px solid #4a5568;
+        }
+
+        .privacy-policy-section .section-icon {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+
+        .privacy-policy-section h1 {
+            color: #10b981;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .privacy-policy-section h2 {
+            color: #fbbf24;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .privacy-policy-section h3 {
+            color: #e2e8f0;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+
+        .privacy-policy-section p {
+            color: #cbd5e0;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .privacy-policy-section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .privacy-policy-section li {
+            color: #cbd5e0;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .privacy-policy-section .highlight-box {
+            background: rgba(251, 191, 36, 0.1);
+            border: 1px solid #fbbf24;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .privacy-policy-section .highlight-box p {
+            color: #fbbf24;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .privacy-policy-section .info-box {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid #10b981;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .privacy-policy-section .info-box h4 {
+            color: #10b981;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .privacy-policy-section .info-box p {
+            color: #cbd5e0;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .privacy-policy-section .contact-box {
+            background: #1e293b;
+            border: 1px solid #10b981;
+            border-radius: 6px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .privacy-policy-section .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .privacy-policy-section .contact-icon {
+            color: #10b981;
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+
+        .privacy-policy-section .contact-label {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        .privacy-policy-section .contact-value {
+            color: #10b981;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .privacy-policy-section .related-policies {
+            background: #1e293b;
+            border-radius: 6px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .privacy-policy-section .related-policies h4 {
+            color: #e2e8f0;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .privacy-policy-section .related-policies p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .privacy-policy-section .policy-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .privacy-policy-section .btn {
+            padding: 12px 24px;
+            border-radius: 6px;
+            border: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .privacy-policy-section .btn-primary {
+            background-color: #10b981;
+            color: #1a2332;
+        }
+
+        .privacy-policy-section .btn-primary:hover {
+            background-color: #059669;
+        }
+
+        .privacy-policy-section .btn-secondary {
+            background-color: transparent;
+            color: #10b981;
+            border: 2px solid #10b981;
+        }
+
+        .privacy-policy-section .btn-secondary:hover {
+            background-color: rgba(16, 185, 129, 0.1);
+        }
+
+        .privacy-policy-section .update-notice {
+            background: rgba(251, 191, 36, 0.05);
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .privacy-policy-section .update-notice h4 {
+            color: #fbbf24;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .privacy-policy-section .update-notice .icon {
+            margin-right: 10px;
+            font-size: 1.3rem;
+        }
+
+        .privacy-policy-section .update-notice p {
+            color: #fbbf24;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .privacy-policy-section .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+			.blog-cards-section .blog-cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+              }
+            .privacy-policy-section .container {
+                padding: 20px 15px;
+            }
+
+            .privacy-policy-section .section {
+                padding: 20px;
+            }
+
+           .privacy-policy-section  h1 {
+                font-size: 1.5rem;
+            }
+
+            .privacy-policy-section h2 {
+                font-size: 1.2rem;
+            }
+
+            .privacy-policy-section h3 {
+                font-size: 1.1rem;
+            }
+
+            .privacy-policy-section .policy-buttons {
+                flex-direction: column;
+            }
+
+            .privacy-policy-section .btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            .privacy-policy-section .contact-box {
+                padding: 20px;
+            }
+			  .terms-condition-section .container {
+                padding: 10px;
+            }
+
+            .terms-condition-section .header {
+                padding: 20px;
+                border-radius: 8px 8px 0 0;
+            }
+
+            .terms-condition-section .header h1 {
+                font-size: 1.25rem;
+            }
+
+            .terms-condition-section .header p {
+                font-size: 0.85rem;
+            }
+
+            .terms-condition-section .content {
+                padding: 20px;
+                border-radius: 0 0 8px 8px;
+            }
+
+            .terms-condition-section .section-header {
+                padding: 12px 15px;
+            }
+
+            .terms-condition-section .section-header h2 {
+                font-size: 1.1rem;
+            }
+
+            .terms-condition-section .section h3 {
+                font-size: 1rem;
+            }
+
+            .terms-condition-section .section p, .section li {
+                font-size: 0.9rem;
+            }
+
+            .terms-condition-section .highlight-box, .info-box {
+                padding: 15px;
+            }
+			.rules-regulation .section {
+                padding: 20px 15px;
+            }
+
+            .rules-regulation .section-header {
+                padding: 12px 15px;
+                font-size: 16px;
+            }
+
+            .rules-regulation h2 {
+                font-size: 18px;
+            }
+
+            .rules-regulation h3 {
+                font-size: 15px;
+            }
+
+            .rules-regulation p, .rules-regulation li {
+                font-size: 13px;
+            }
+
+            .rules-regulation ul, .rules-regulation ol {
+                margin-left: 15px;
+            }
 }
 /*Mobile View Start*/
 @media only screen and (max-width:767px) {
+.terms-condition-section .header {
+               padding: 15px;
+            }
+			.terms-condition-section .content {
+              padding: 15px;
+            }
+.blog-cards-section .blog-cards-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
 .share-content .elementor-icon-list-item a {
     padding: 7px 23px !important;
     font-size: 18px;
@@ -228,7 +693,7 @@
 }
 .foursix-navbar-brand {
     max-width: 200px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .foursix-navbar-brand img {
     width: 137px;
@@ -341,10 +806,284 @@
 .cricket-container-match .matches-grid {
     margin-bottom: 0;
 }
+.contact-section .hero-section {
+               padding: 20px 15px 60px;
+            }
+.contact-section .help-section h2 {
+    text-align: center;
+    font-size: 26px;
+    margin: 0 0 20px;
+}
+.contact-section .hero-section h1 {
+    font-size: 1.75rem;
+ }
+
+.contact-section .contact-methods,
+.contact-section .help-section {
+    padding: 40px 20px;
+}
+.betting-content-box .content-box {
+             padding: 0px 0px 0px;
+    }
+body.single-post .foursix-single-post-wrapper {
+    padding: 108px 15px 60px;
+}
+.blog-content ul, .blog-content ol {
+    margin: 20px 0;
+    padding-left: 0;
+}
+.blog-related-section {
+    margin-top: 38px;
+}
+p {
+    margin: 0 0 18px 0;
+}
+.blog-title {
+    font-size: 24px;
+}
+.blog-related-title {
+    font-size: 26px;
+    margin: 0 0 18px 0;
+}
+.blog-single-container .blog-content h2 {
+    font-size: 22px;
+    margin: 32px 0 15px 0;
+}
+.blog-content ul, 
+.blog-content ol {
+    padding-left: 0 !important;
+}
+.faq-list-container {
+    padding: 12px 0px !important;
+}
+.privacy-policy-section h1 {
+    flex-direction: row;
+}
+.privacy-policy-section ul {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.gaming-section .resources-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+}
+.gaming-section .container {
+    padding: 30px 15px;
+}
+.betting-content-box .grid-3.other-sports, 
+.betting-content-box .grid-2.other-sports {
+               grid-template-columns: repeat(1, 1fr);
+}
+.cricket-betting .hero {
+     padding: 60px 15px;
+}
+.cricket-betting .container {
+    padding: 0 0;
+}
+.cricket-betting .cta-section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+	margin-top:0;
+}
+.cricket-betting .guide-section {
+    padding: 60px 15px;
+}
+.cricket-betting .how-to-start {
+    padding: 30px 15px 60px;
+}
+.cricket-betting .section {
+    padding: 40px 15px 60px;
+}
+.cricket-betting .why-choose {
+    background: #0f1629;
+    padding: 22px 15px 50px;
+}
+.about-section .container {
+    padding: 0 0;
+}
+.about-section h1 {
+    font-size: 26px;
+}
+.about-section .welcome-text h2 {
+    margin-top: 0;
+	margin-top: 0;
+}
+.about-section header {
+    text-align: center;
+    padding: 43px 0px 20px;
+}
+.about-section .stat-item p:last-child{
+	margin:0;
+}
+.about-section .stat-item h3 {
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+.about-section .stats {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    padding-top: 29px;
+}
+.about-section .why-choose h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #fff;
+    margin-top: 0;
+}
+.about-section .why-choose {
+    text-align: center;
+    margin: 40px 0 25px;
+}
+.about-section .what-we-offer h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+    color: #ffffff;
+}
+.about-section .company-section {
+    padding: 15px;
+}
+.about-section .commitment-section h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.about-section .commitment-section {
+    padding: 20px;
+}
+.about-section .cta-section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.about-section footer {
+    text-align: center;
+    padding: 0px 20px 50px;
+    color: #9ca3af;
+}
+.promotions-list-container {
+    padding: 0;
+}
+.cricket-betting-thum .elementor-image-box-img {
+    width: 42px !important;
+    margin-bottom: 11px !Important;
+}
+.promotions-section {
+    padding: 40px 0;
+}
 }
 /*Mobile View Small*/
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:480px) {
+.betting-content-box .container {
+                padding: 10px;
+            }
 
+            .betting-content-box .header {
+                padding: 30px 15px;
+            }
+
+            .betting-content-box .section {
+                padding: 15px;
+            }
+
+            .betting-content-box .footer-cta {
+                padding: 30px 20px;
+            }
+			 .cricket-betting .hero {
+                padding: 50px 15px;
+            }
+
+            .cricket-betting .section {
+                padding: 40px 15px;
+            }
+
+            .cricket-betting .hero h1 {
+                font-size: 26px;
+				margin-top: 0;
+            }
+
+            .cricket-betting .section-title {
+                font-size: 22px;
+            }
+			.about-section h1 {
+                font-size: 1.5rem;
+            }
+
+             .about-section .welcome-section,
+             .about-section .cta-section {
+                padding: 30px 20px;
+            }
+
+             .about-section .stats {
+                grid-template-columns: 1fr;
+            }
+
+             .about-section .stat-item h3 {
+                font-size: 1.5rem;
+            }
+			.privacy-policy-section h1 {
+                font-size: 1.3rem;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .privacy-policy-section h2 {
+                font-size: 1.1rem;
+            }
+
+            .privacy-policy-section .section {
+                padding: 15px;
+            }
+
+            .privacy-policy-section .highlight-box,
+            .privacy-policy-section .info-box,
+            .privacy-policy-section .contact-box,
+            .privacy-policy-section .update-notice {
+                padding: 15px;
+            }
+			.terms-condition-section .header h1 {
+                font-size: 1.1rem;
+            }
+
+            .terms-condition-section .section-header h2 {
+                font-size: 1rem;
+            }
+
+            .terms-condition-section .section h3 {
+                font-size: 0.95rem;
+            }
+
+            .terms-condition-section .section p, .terms-condition-section .section li {
+                font-size: 0.85rem;
+            }
+			.rules-regulation .container {
+                border-radius: 5px;
+            }
+
+            .rules-regulation .section {
+                padding: 15px 10px;
+            }
+
+            .rules-regulation .section-header {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .rules-regulation h2 {
+                font-size: 16px;
+                margin-bottom: 12px;
+            }
+
+            .rules-regulation h3 {
+                font-size: 14px;
+                margin-top: 15px;
+            }
+
+            .rules-regulation p, .rules-regulation li {
+                font-size: 12px;
+            }
+
+            .rules-regulation .highlight, .rules-regulation .warning, .rules-regulation .note {
+                padding: 12px;
+            }
+			
 }
 /*Mobile Tiny Small*/
 @media only screen and (max-width:320px) {
