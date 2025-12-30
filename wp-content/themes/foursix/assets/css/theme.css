@@ -362,7 +362,7 @@ and (max-width: 1080px) {
 		padding: 0 0px;
     }
 .bottom-footer{
-	background: #101828;
+	background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
     min-height: 450px;
     padding: 90px 30px 18px;
    }
@@ -379,7 +379,7 @@ and (max-width: 1080px) {
 }
 .foo-colume-5 p a,
 .bottom-footer ul li a{
-	color:#99A1AF;
+	color: #fff;;
 	font-size: 15px;
 	text-decoration:none !important;
 }
@@ -781,14 +781,14 @@ background: linear-gradient(to bottom,  #023821 0%,#016334 100%); /* W3C, IE10+,
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #04B21B;
+    background: #034b35;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 .header-bg-box{
-	background: #006045;
+	background: #004130;
     background-size: cover;
 }
 .header-top-bar .header-content-box {
@@ -845,8 +845,8 @@ background: linear-gradient(to bottom,  #023821 0%,#016334 100%); /* W3C, IE10+,
 	font-size:16px;
 }
 .head-right-button ul li.login-btn a{
-	background-color:#004F3B;
-	border:1px solid #004F3B;
+	background-color: #006045;
+    border: 1px solid #009966;
 	border-radius:10px;
 	padding: 13px 28px;
 	color:#ffffff;
@@ -1399,7 +1399,7 @@ border-radius: 16px;
 		   padding:0;
         }
 .menu-social-media-container ul li a {
-                background: rgba(255, 255, 255, 0.1);
+                background:#006045;
 				width: 40px;
 				height: 40px;
 				display: flex;
@@ -1409,7 +1409,7 @@ border-radius: 16px;
          }
 .foo-colume-4 p strong{
 	display:block;
-	color: #99A1AF;
+	color: #ffffff;
 }
 .foo-colume-4 div:nth-child(2) p{
 	position:relative;
@@ -2483,7 +2483,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .betting-content-box .section {
-             background: #1E2939;
+            background:#004F3B;
             padding: 0px;
             margin-bottom: 20px;
             border-radius: 14px;
@@ -2491,7 +2491,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .betting-content-box .section.sports {
-			background: #1E2939;
+			
             border:1px solid #009966;
         }
 
@@ -2585,8 +2585,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         .betting-content-box .card {
             padding: 20px;
-            background: #101828;
-	        border: 0.8px solid #009966;
+              background: #1D293D80;
+            border: 0.8px solid #186a6a;
 	      border-radius: 10px;
 
         }
@@ -2625,8 +2625,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .betting-content-box .game-card {
-            background: #101828;
-			border: 0.8px solid #E60076;
+             background: #1D293D80;
+             border: 0.8px solid #186a6a;
 			border-radius: 10px;
             padding: 20px;
             border-radius: 8px;
@@ -2704,8 +2704,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .betting-content-box .theme-item {
-            background: #101828;
-			border: 0.8px solid #364153;
+              background: #1D293D80;
+              border: 0.8px solid #186a6a;
 			border-radius: 10px;
             padding: 20px 15px;
             border-radius: 8px;
@@ -2723,7 +2723,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .betting-content-box .footer-cta {
-            background: linear-gradient(90deg, rgba(0, 79, 59, 0.5) 0%, rgba(115, 62, 10, 0.5) 100%);
+           background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
 			border: 2px solid #009966;
 			border-radius: 14px;
             padding: 40px;
@@ -2801,9 +2801,9 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 /*cricket betting start*/
   /* Navigation */
         .cricket-betting .top-nav {
-            background: #1a1f2e;
-            padding: 12px 0;
-            border-bottom: 1px solid #2a2f3e;
+               background: #04503c;
+				padding: 12px 0;
+				border-bottom: 1px solid #004130;
         }
 
         .cricket-betting .nav-content {
@@ -2832,7 +2832,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             padding: 15px 20px;
             font-size: 13px;
             color: #888;
-			background-color: #101828;
+			background-color: #004130;
         }
 
         .cricket-betting .breadcrumb a {
@@ -2866,7 +2866,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             background-size: cover !important;
 		}
 .cricket-betting {
-    background-color: #101828;
+      background-color: #004130;
 }
         .cricket-betting .hero-content {
             max-width: 1200px;
@@ -2907,7 +2907,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .cricket-betting .btn-primary {
-            background: #10b981;
+            background: #008236;
             color: white;
         }
 
@@ -2943,6 +2943,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
            text-align: center;
             margin-bottom: 15px;
             color: white;
+			margin:0;
         }
 
         .cricket-betting .section-subtitle {
@@ -2954,7 +2955,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         /* Why Choose Section */
         .cricket-betting .why-choose {
-            background: #0f1629;
+               background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
             padding: 60px 20px;
         }
 	 .cricket-betting .left-bonus-content .section-title,
@@ -2965,8 +2966,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 			max-width: 1200px;
 			margin: 0 auto;
 			padding: 30px 20px;
-			background-color:#1E2939;
-			border:1px solid #364153;
+		    background-color: #004F3B;
+           border: 1px solid #035741;
 			border-radius:10px;
     }
         .cricket-betting .features-list {
@@ -3031,9 +3032,12 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 }
         /* Types of Bets */
         .cricket-betting .types-section {
-            background: #2D2D2D;
+            background: #D8FBE6;
         }
-
+.cricket-betting .types-section .section-subtitle,
+.cricket-betting .types-section .section-title{
+	color:#0F172B;
+}
         .cricket-betting .grid-3 {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -3042,12 +3046,12 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .cricket-betting .bet-card {
-            background: #1a1f2e;
-            padding: 30px;
-            border-radius: 12px;
-            text-align: center;
-            transition: transform 0.3s;
-            border: 1px solid #2a2f3e;
+               background: #014f3a;
+				padding: 30px;
+				border-radius: 12px;
+				text-align: center;
+				transition: transform 0.3s;
+				border: 1px solid #044e31;
         }
 
         .cricket-betting .bet-card:hover {
@@ -3070,17 +3074,17 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         .cricket-betting .bet-card h3 {
             font-size: 20px;
             margin-bottom: 12px;
-            color: #10b981;
+                color: #ffffff;
         }
 
         .cricket-betting .bet-card p {
-            color: #94a3b8;
+            color: #cdc5c5;
             font-size: 14px;
         }
 
         /* Tournaments Section */
         .cricket-betting .tournaments-section {
-            background: #0f1629;
+                background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
         }
 
         .cricket-betting .grid-4 {
@@ -3091,7 +3095,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .cricket-betting .tournament-card {
-            background: #1a1f2e;
+            background: #1D293D80;
             padding: 25px;
             border-radius: 10px;
             text-align: center;
@@ -3104,10 +3108,11 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             transform: translateY(-3px);
         }
 
-        .cricket-betting .tournament-icon {
-            font-size: 40px;
-            margin-bottom: 15px;
-        }
+    .cricket-betting .guide-content p {
+			color: #dfe7f1 !important;
+			margin-bottom: 20px;
+			line-height: 1.8;
+       }
 
         .cricket-betting .tournament-card h4 {
             font-size: 16px;
@@ -3116,9 +3121,12 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         /* Tips Section */
         .cricket-betting .tips-section {
-                background: #2D2D2D;
+                background: #D8FBE6;
         }
-
+ .cricket-betting .tips-section .section-subtitle, 
+ .cricket-betting .tips-section .section-title {
+    color: #0F172B;
+}
         .cricket-betting .grid-2 {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -3130,24 +3138,24 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             background: #1a1f2e;
             padding: 30px;
             border-radius: 10px;
-            border-left: 4px solid #f59e0b;
+            border-left: 4px solid #00ad73;
         }
 
         .cricket-betting .tip-card h3 {
             font-size: 20px;
             margin-bottom: 15px;
-            color: #f59e0b;
+            color: #00ad73;
         }
 
         .cricket-betting .tip-card p {
-            color: #94a3b8;
+             color: #dfe7f1;
             font-size: 14px;
             line-height: 1.7;
         }
 
         /* How to Start Section */
         .cricket-betting .how-to-start {
-            background: #0f1629;
+            background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
             padding: 60px 20px;
         }
 
@@ -3165,7 +3173,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         .cricket-betting .step-number {
             width: 70px;
             height: 70px;
-            background: #10b981;
+             background: #bcdfcf;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -3182,18 +3190,19 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .cricket-betting .step-card p {
-            color: #94a3b8;
+            color:#dfe7f1;
             font-size: 14px;
         }
 
         /* Guide Section */
         .cricket-betting .guide-section {
-                background: #2d2d2d;
+				background: url(../img/Te-1.png) no-repeat center;
                 padding: 90px 20px;
+			   background-size:cover;
         }
 
         .cricket-betting .guide-content {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
@@ -3231,7 +3240,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         /* CTA Section */
         .cricket-betting .cta-section {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
             padding: 60px 20px;
             text-align: center;
         }
@@ -3306,11 +3315,11 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         /* Welcome Section */
          .about-section .welcome-section {
-            background:#1E2939;
+            background:#004F3B;
             border-radius: 12px;
             padding: 50px 40px;    
 			margin: 0px 0;
-			border: 1px solid #364153;
+			border: 1px solid #035741;
         }
 
          .about-section .welcome-content {
@@ -3343,7 +3352,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             grid-template-columns: repeat(4, 1fr);
             gap: 30px;
             text-align: center;
-			border-top: 1px solid #364153;
+			border-top: 1px solid #0c644e;
         }
 
          .about-section .stat-item h3 {
@@ -3377,8 +3386,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
          .about-section .feature-card {
-            background: #1E2939;
-			border: 2px solid #009966;
+           background: #1D293D80;
+          border: 2px solid #214756;
 			border-radius: 14px;
             padding: 30px 20px;
             text-align: left;
@@ -3479,8 +3488,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             font-size: 0.9rem;
         }
 		section.what-we-offer {
-			background: #1E2939;
-			border: 2px solid #364153;
+			background:#004F3B;
+			border: 2px solid #035741;
 			border-radius: 14px;
 			padding: 0 20px;
 		}
@@ -3504,7 +3513,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
          .about-section .company-info {
-            background: #0f1e35;
+            background: #1D293D80;
             padding: 20px;
             border-radius: 8px;
 			border: 1px solid #364153;
@@ -3632,7 +3641,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
 /*contact us html design*/
 .contact-section .hero-section {
-            background: linear-gradient(135deg, #0f6b4a 0%, #1a5f5f 100%);
+           background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
             padding: 58px 20px 80px;
             text-align: center;
         }
@@ -3669,7 +3678,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
          .contact-section .contact-card {
-            background: #1E2939;
+            background: #1D293D80;
 			border: 0.8px solid #364153;
 			border-radius: 10px;
             padding: 40px 30px;
@@ -3807,13 +3816,14 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
            background: #E60076;
         }
 
-         .contact-section .help-section {
-               background: #101828;
-				padding: 60px 39px;
-				margin-top: 40px;
-				max-width: 1166px;
-				margin: 0 auto;
-        }
+      .contact-section .help-section {
+		padding: 60px 39px;
+		margin-top: 40px;
+		max-width: 1166px;
+		margin: 0 auto;
+		border-radius: 10px;
+		background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
+   }
 
          .contact-section .help-section h2 {
             text-align: center;
@@ -3869,7 +3879,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             max-width:1024px;
             margin: 0 auto;
             padding: 40px 20px;
-			background-color:#1E2939;
+			background-color: #004F3B;
+            border: 1px solid #035741;
 			border-radius:14px;
         }
 
@@ -3878,7 +3889,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 			border-radius: 0;
 			padding: 30px;
 			margin-bottom: 0;
-			border-bottom: 1px solid #2f3642
+			border-bottom: 1px solid #0f5c49;
         }
 
         .privacy-policy-section .section-icon {
@@ -3932,14 +3943,14 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         .privacy-policy-section .highlight-box {
             background: rgba(251, 191, 36, 0.1);
-            border: 1px solid #fbbf24;
+            border: 1px solid #04B21B;
             border-radius: 6px;
             padding: 20px;
             margin: 20px 0;
         }
 
         .privacy-policy-section .highlight-box p {
-            color: #fbbf24;
+            color: #04B21B;
             font-size: 0.9rem;
             margin: 0;
         }
@@ -3954,6 +3965,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         .privacy-policy-section .info-box h4 {
             color: #10b981;
+			margin-top: 0;
             margin-bottom: 10px;
             display: flex;
             align-items: center;
@@ -3966,8 +3978,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .privacy-policy-section .contact-box {
-            background: #1e293b;
-            border: 1px solid #10b981;
+           background: #025a42;
+           border: 1px solid #10b981;
             border-radius: 6px;
             padding: 25px;
             margin: 20px 0;
@@ -3998,11 +4010,11 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .privacy-policy-section .related-policies {
-            background: #101828;
-			border: 2px solid #364153;
+			border: 1px solid #a0a7b1;
 			border-radius: 10px;
-            padding: 25px;
-            margin: 20px 0;
+			padding: 25px;
+			margin: 20px 0;
+			background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
         }
 
         .privacy-policy-section .related-policies h4 {
@@ -4105,8 +4117,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
             max-width:1024px;
             margin: 0 auto;
             padding: 20px;
-			background: #1E2939;
-			border: 2px solid #364153;
+			background-color: #004F3B;
+          border: 1px solid #035741;
 			border-radius: 14px;
         }
 
@@ -4114,7 +4126,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
                 background: transparent;
 				padding: 30px;
 				border-radius: 0;
-				border-bottom: 1px solid #253650;
+			    border-bottom: 1px solid #0f5c49;
         }
 
         .terms-condition-section .header h1 {
@@ -4234,8 +4246,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
   .rules-regulation .container {
             max-width:1024px;
             margin: 0 auto;    
-			background: #1E2939;
-			border: 2px solid #364153;
+		    background-color: #004F3B;
+           border: 1px solid #035741;
 			border-radius: 14px;
             border-radius: 8px;
             overflow: hidden;
@@ -4243,7 +4255,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 
         .rules-regulation .section {
             padding: 25px;
-            border-bottom: 1px solid #213046;
+            border-bottom: 1px solid #0f5c49;
         }
 
         .rules-regulation .section:last-child {
@@ -4251,14 +4263,13 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .rules-regulation .section-header {
-            background-color: transparent;
-            padding: 15px 25px;
-            font-size: 18px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-			color: #ffffff;
-			padding-top:30px;
+                background-color: transparent;
+				padding: 49px 25px 6px;
+				font-size: 18px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				color: #ffffff;
         }
 
         .rules-regulation h2 {
@@ -4270,7 +4281,7 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
        .rules-regulation h3 {
-            color: #5ab3ff;
+            color: #fff;
             font-size: 16px;
             margin-top: 20px;
             margin-bottom: 10px;
@@ -4294,11 +4305,11 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
         .rules-regulation .highlight {
-            background-color: #3d5a7a;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 15px 0;
-            border-left: 4px solid #4a9eff;
+            background-color: #036049;
+			padding: 15px;
+			border-radius: 5px;
+			margin: 15px 0;
+			border-left: 4px solid #0a8f6e;
 			color: #fff;
         }
 
@@ -4330,7 +4341,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 .gaming-section .container {
             max-width:1024px;
             margin: 0 auto;
-            background-color: #1e2936;
+              background-color: #004F3B;
+            border: 1px solid #035741;
             border-radius: 12px;
             padding: 40px;
         }
@@ -4406,8 +4418,8 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
         }
 
           .gaming-section .warning-box {
-            background-color: #322633;
-            border: 1px solid #7f1d1d;
+             background-color: #065f46;
+             border: 1px solid #057055;
             border-radius: 8px;
             padding: 25px;
             margin-top: 20px;
@@ -4554,4 +4566,25 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
 .view-more-btn:hover,
 .link-btn:hover {
     transform: translateY(-3px);
+}
+
+.blog-card {
+    position: relative;
+    background: rgba(30, 41, 59, 0.6) !important;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.faq-category-header {
+    background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%) !important;
+}
+.faq-items {
+    background: #004F3B4D !important;
+}
+.faq-item {
+    background: #075132 !important;
+}
+.faq-answer {
+    background: rgba(148, 163, 184, 0.1)!important;
 }

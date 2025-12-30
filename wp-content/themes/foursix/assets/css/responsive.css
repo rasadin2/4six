@@ -55,10 +55,14 @@
              .about-section .stats {
                 grid-template-columns: repeat(2, 1fr);
             }
+
 .bottom-footer h4,
 .foursix-footer .widget-title {
              font-size: 18px;
      }
+.foursix-main-menu li > .sub-menu li a:hover {
+    color:#f0f812;
+}
 }
 /*Tab Portrait*/
 @media only screen and (max-width:991px) {
@@ -121,9 +125,20 @@
 }
 /*Tab Portrait*/
 @media only screen and (max-width:768px) {
+	.cricket-betting .grid-3, 
+.cricket-betting .grid-4, 
+.cricket-betting .grid-2{
+ grid-template-columns: repeat(2, 1fr) !important;
+}
+.promotions-list-container {
+    padding: 0 !important;
+}
 .header-top-bar {
     padding: 10px 30px;
     display: none;
+}
+.faq-list-container {
+    padding: 0 !important;
 }
 .list-image-box {
     width: 48% !important;
@@ -464,7 +479,7 @@
             color: #64748b;
             font-size: 0.85rem;
         }
-
+}
         @media (max-width: 768px) {
 			.blog-cards-section .blog-cards-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -570,10 +585,24 @@
 			 grid-template-columns: repeat(2, 1fr);
              gap: 16px;
           }
-		  
+.cricket-betting .hero-buttons {
+    flex-direction: inherit;
+    flex-wrap: nowrap;
+}	  
+.cricket-betting .btn {
+    padding: 14px 15px;
+}		
 }
 /*Mobile View Start*/
 @media only screen and (max-width:767px) {
+.foursix-navbar-brand img {
+     width: 105px !important;
+}
+.cricket-betting .grid-3, 
+.cricket-betting .grid-4, 
+.cricket-betting .grid-2{
+     grid-template-columns: repeat(1, 1fr) !important;
+}
              .about-section .features-grid,
              .about-section .mission-vision,
              .about-section .offers-grid,
@@ -1000,6 +1029,11 @@ p {
 .blog-cards-section .container {
     padding: 0 0 !important;
 }
+.faq-answer-content p {
+    margin: 0 0 12px 0;
+    font-size: 13px;
+    line-height: 24px;
+}
 }
 /*Mobile View Small*/
 @media only screen and (max-width:480px) {
@@ -1119,5 +1153,8 @@ p {
 }
 /*Mobile Tiny Small*/
 @media only screen and (max-width:320px) {
-
+.cricket-betting .hero-buttons {
+    flex-direction: column;
+    flex-wrap:wrap;
+}
 }
