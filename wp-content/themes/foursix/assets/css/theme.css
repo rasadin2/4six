@@ -596,6 +596,9 @@ body.single-post .blog-nav-card p {
 body.single-post .blog-meta-bar {
     background: #055e48;
 }
+body.single-post .blog-markets-box {
+    background: linear-gradient(135deg, rgb(0, 44, 34) 0%, rgb(0, 79, 59) 50%, rgb(13, 84, 43) 100%);
+}
 /*scroll animation start logo*/
 .scroll-wrapper {
             flex: 1;
