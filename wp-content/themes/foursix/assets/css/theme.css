@@ -582,8 +582,20 @@ background: linear-gradient(to bottom,  #023821 0%,#016334 100%); /* W3C, IE10+,
 	left:0;
 	position: absolute;
 }
-
-
+body.single-post {
+    background: url(../img/top-banner-gradient-1.png) no-repeat center !important;
+    background:transparent;
+	background-size:cover;
+}
+.blog-nav-card {
+    background: #086850 !important;
+  }
+body.single-post .blog-nav-card p {
+    color: #efe1e1;
+}  
+body.single-post .blog-meta-bar {
+    background: #055e48;
+}
 /*scroll animation start logo*/
 .scroll-wrapper {
             flex: 1;
@@ -2422,14 +2434,19 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
     max-width: 860px;
     margin: 0 auto;
     padding: 20px 20px 20px 20px;
-    background: #1E2939;
-    border: 1px solid #364153;
+    background-color: #004F3B;
+    border: 1px solid #035741;
     border-radius: 14px;
+}
+body.single-post .blog-content p {
+    margin-bottom: 20px;
+    color: #fff;
 }
 .blog-single-container ul li{
 	color: #ffffff;
 	margin: 0;
 }
+
 .back-to-blog {
     position: absolute;
     top: -56px;
@@ -4593,3 +4610,4 @@ body.single-post .foursix-single-post-wrapper .blog-single-container {
     height: 100%;
     object-fit: cover;
 }
+
